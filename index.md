@@ -1,9 +1,8 @@
 Hello, World!
 
-*italic*  **bold**  
-# Thomas  
+*italic*  **bold**  `# Thomas`  
 ## Thomas  
-[Link] (https://www.google.com/)  
+[Link](https://www.google.com/)  
 
 * list
 * list
