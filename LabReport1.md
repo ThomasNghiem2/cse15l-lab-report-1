@@ -17,5 +17,6 @@ The working directory is `/home`. This command gave a list of two folders within
 The working directory is `/home`. This command displayed the files and folders within the `lecture1` directory. So, it acts as a list to see the names of all files and folders within the directory. This is not an error. <br>
 * File path <br>
 ![Image](ls-file-path.png) <br>
-The working directory is `/home/lecture1`. This command with a file returned an error. This is because the command in meant to use to change directories, meaning that we can not use it to change our directory to be a file. As such, the terminal prints out that the error that `README` is not a directory. <br>
+The working directory is `/home/lecture1`. Using this command on an existing file, which I used `README`, just listed that one file. This is seen with how the terminal displayed `README` as the result. This is not an error. <br>
+## cat
 
