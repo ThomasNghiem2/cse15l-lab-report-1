@@ -20,8 +20,8 @@ The working directory is `/home`. This command displayed the files and folders w
 The working directory is `/home/lecture1`. Using this command on an existing file, which I used `README`, just listed that one file. This is seen with how the terminal displayed `README` as the result. This is not an error. <br>
 ## cat
 * No arguments <br>
-![Image](cat-no-argument.png) <br>
-The working directory is `/home/lecture1`. This command takes away the `[user@sahara ~ /lecture1`, and allows the user to type in the input directly in the terminal. Then, it prints out input that was typed into the terminal. <d>
+![Image](cat-no-argument-fixed.png) <br>
+The working directory is `/home/lecture1`. This command takes away the `[user@sahara ~ /lecture1`, and allows the user to type in the input directly in the terminal. Then, it prints out input that was typed into the terminal. This is not an error. <d>
 * Directory path <br>
 ![Image](cat-directory-path.png) <br>
 The working directory is `/home`. This command is an error, which is displayed in the terminal, where it states that `lecture1` is a directory, not a file. `Cat` takes files, not directories, to print in the terminal, so using a directory in the argument will not work. <br>
