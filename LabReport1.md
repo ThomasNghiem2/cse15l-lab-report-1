@@ -21,7 +21,7 @@ The working directory is `/home/lecture1`. Using this command on an existing fil
 ## cat
 * No arguments <br>
 ![Image](cat-no-argument.png) <br>
-The working directory is `/home/lecture1`. This command seemed to cause an error, where the `[user@sahara ~ /lecture1` is now gone, and nothing in printed in the terminal. It makes sense that nothing is printed since cat functions to display the file, so since no file is given, nothing can be printed. <d>
+The working directory is `/home/lecture1`. This command takes away the `[user@sahara ~ /lecture1`, and allows the user to type in the input directly in the terminal. Then, it prints out input that was typed into the terminal. <d>
 * Directory path <br>
 ![Image](cat-directory-path.png) <br>
 The working directory is `/home`. This command is an error, which is displayed in the terminal, where it states that `lecture1` is a directory, not a file. `Cat` takes files, not directories, to print in the terminal, so using a directory in the argument will not work. <br>
